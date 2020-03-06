@@ -1,0 +1,17 @@
+.swing {
+	-webkit-transform-origin: top center;
+	-moz-transform-origin: top center;
+	-o-transform-origin: top center;
+	transform-origin: top center;
+	-webkit-animation-name: swing;
+	-moz-animation-name: swing;
+	-o-animation-name: swing;
+	animation-name: swing;
+}
+ /* This is for animations */
+@-webkit-keyframes wobble {
+  0% { -webkit-transform: translateX(0%); }
+  15% { -webkit-transform: translateX(-5%) rotate(-5deg); }
+  30% { -webkit-transform: translateX(1%) rotate(5deg); }
+  100% { -webkit-transform: translateX(0%); }
+}
